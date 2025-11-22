@@ -18,6 +18,14 @@ async function readFiles() {
 readFiles();
 
 
+
+// HOW TO RUN THIS PROGRAM:
+
+// REQUIRED SETUP (Run these once if not already done):
+// npm init -y
+// npm install express
+// npm install
+
 // HOW TO RUN THIS APPLICATION:
 // Step 1: Open terminal inside this folder
 // Step 2: Run → node app.js

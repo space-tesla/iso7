@@ -20,11 +20,20 @@ app.listen(3000, () => {
 });
 
 
+
+
+// HOW TO RUN THIS PROGRAM:
+// REQUIRED SETUP (Run these once if not already done):
+// npm init -y
+// npm install express
+// npm install
+
+
 // HOW TO RUN THIS APPLICATION:
 // Step 1: Open terminal inside this folder
 // Step 2: Run → node app.js
 // Step 3: Open browser → http://localhost:3000/users (GET request)
 
-// HOW TO TEST CREATE REQUEST (POSTMAN OR TERMINAL):
+// Open New Terminal and go to file using cd filename 
 // Example Terminal Command to add a User:
 // curl -X POST -H "Content-Type: application/json" -d '{"name":"Nikhil","age":21}' http://localhost:3000/users
